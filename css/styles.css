@@ -1,0 +1,73 @@
+body{
+  background: hsl(185, 75%, 39%);
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  color: hsl(229, 23%, 23%);
+}
+/* background section */
+.bg_img{
+  position: fixed;
+}
+.top_bg{
+  left: -20%;
+  bottom: 40%;
+}
+
+.bottom_bg{
+  right:-20%;
+  top: 50%;
+}
+
+
+.card{
+  background: white;
+  border: none;
+  width: 350px;
+  margin: auto;
+  border-radius: 7%;
+  margin-top: 10%;
+  overflow: hidden;
+}
+
+/* Card header section */
+.card_bg{
+  display: inline-block;
+}
+
+/* Card body section */
+.card-body{
+   padding: 1.25rem 0;    /*To make the hr go along the whole card */
+}
+
+.card-body h6{
+  padding-bottom: 20px;
+}
+.card-body h6, span{
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  font-size: 18px;
+}
+.card-body h5{
+  padding-top: 50px;
+  font-weight:700;
+}
+.cardAge{
+  padding-left: 10px;
+}
+.profileImg{
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 90px;
+  margin: auto;
+  border: 5px solid white;
+}
+
+/* Card fotter section */
+.statsRow{
+  padding:0 30px;
+}
+.col h5{
+  padding-top: 0;
+}
